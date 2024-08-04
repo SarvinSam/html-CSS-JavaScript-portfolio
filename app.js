@@ -121,11 +121,6 @@ menuItems.forEach((item, index) => {
     });
   });
 
-  colors.forEach((items,index)=>{
-     items.addEventListener("click", ()=>{
-        productWrapper.style.transform=`translateX(${-100 * index}vw)`;
-     })
-  });
 
   currentProductSizes.forEach((size, index) => {
     size.addEventListener("click", () => {
